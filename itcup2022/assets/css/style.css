@@ -898,9 +898,9 @@ html:not(.js) .cd-faq__items {
     -ms-transform:translateX(0);
     transform:translateX(0)
 }
-.cd-faq__group{display:none}
+/*.cd-faq__group{display:none}*/
 /*@media (min-width: 64rem) {*/
-    .cd-faq__group{display:block;padding-top:1px}
+.cd-faq__group{display:block;padding-top:1px}
 /*}*/
 html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
 .cd-faq__title{margin:1.25em 0;margin:var(--space-md) 0}
@@ -1123,4 +1123,7 @@ div.brand {
     display: inline-block;
     vertical-align: top;
     padding: 1em;
+}
+.cd-faq__item {
+    padding: .5em;
 }
