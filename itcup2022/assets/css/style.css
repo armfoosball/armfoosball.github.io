@@ -1119,7 +1119,10 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     .cd-header .text-component {
         font-size:.8rem;
     }
-
+    .cd-header {
+        height:140px;
+        /*height:var(--header-height)*/
+    }
 }
 
 @media (max-width: 48rem) {
