@@ -1096,7 +1096,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
 @media (max-width: 64rem) {
     .cd-header {
         height:160px;
-        height:var(--header-height)
+        /*height:var(--header-height)*/
     }
     .cd-header .text-component {
         font-size:1.25rem;
@@ -1104,9 +1104,18 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
 
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 56rem) {
     .cd-header .text-component {
         font-size:1rem;
+    }
+
+}
+@media (max-width: 48rem) {
+    .cd-header .text-component {
+        font-size:.9rem;
+    }
+    .cd-header {
+        height:120px;
     }
 }
 
