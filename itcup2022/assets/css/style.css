@@ -1102,10 +1102,10 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
         height:160px;
         /*height:var(--header-height)*/
     }
-    /*.cd-header .text-component {
+    .cd-header .text-component {
         font-size:1rem;
     }
-    */
+    
     .cd-header .text-component h1 {
         margin-bottom: 10px;
     }
@@ -1114,14 +1114,14 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     }
 
 }
-/*
+
 @media (max-width: 56rem) {
     .cd-header .text-component {
         font-size:.8rem;
     }
 
 }
-*/
+
 @media (max-width: 48rem) {
     .cd-header .text-component {
         font-size:.8rem;
@@ -1174,5 +1174,6 @@ div.brand {
     #basics, #mobile {
         display:block;
         width:auto;
+
     }
 }
