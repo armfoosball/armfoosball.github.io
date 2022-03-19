@@ -1143,7 +1143,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     -moz-osx-font-smoothing:grayscale
 }
 @media (min-width: 80rem) {
-    .cd-header{--header-height: 220px}
+    .cd-header{--header-height: 240px}
 }
 .cd-article-link {
     color:hsl(73, 46%, 27.5%);
