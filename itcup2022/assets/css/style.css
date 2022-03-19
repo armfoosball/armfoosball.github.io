@@ -1098,6 +1098,10 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
         height:160px;
         height:var(--header-height)
     }
+    .cd-header .text-component {
+        font-size:.8rem;
+    }
+
 }
 .cd-header h1 {
     font-size:3em;
