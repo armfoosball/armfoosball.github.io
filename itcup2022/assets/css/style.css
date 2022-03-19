@@ -8,7 +8,9 @@
     .max-width-adaptive-md{max-width:64rem;max-width:var(--max-width-md)}
 /*}*/
 .max-width-adaptive,.max-width-adaptive-lg{max-width:38rem;max-width:var(--max-width-xs)}
-@media (min-width: 64rem){.max-width-adaptive,.max-width-adaptive-lg{max-width:64rem;max-width:var(--max-width-md)}}
+/*@media (min-width: 64rem){*/
+    .max-width-adaptive,.max-width-adaptive-lg{max-width:64rem;max-width:var(--max-width-md)}
+/*}*/
 @media (min-width: 90rem){.max-width-adaptive,.max-width-adaptive-lg{max-width:80rem;max-width:var(--max-width-lg)}}
 .max-width-adaptive-xl{max-width:38rem;max-width:var(--max-width-xs)}
 /*@media (min-width: 64rem){*/
@@ -71,7 +73,7 @@
     .col-11\@sm{-ms-flex-preferred-size:calc(91.66% - 0.01px - 1em);-ms-flex-preferred-size:calc(91.66% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(91.66% - 0.01px - 1em);flex-basis:calc(91.66% - 0.01px - var(--grid-gap, 1em));max-width:calc(91.66% - 0.01px - 1em);max-width:calc(91.66% - 0.01px - var(--grid-gap, 1em))}
     .col-12\@sm{-ms-flex-preferred-size:calc(100% - 0.01px - 1em);-ms-flex-preferred-size:calc(100% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(100% - 0.01px - 1em);flex-basis:calc(100% - 0.01px - var(--grid-gap, 1em));max-width:calc(100% - 0.01px - 1em);max-width:calc(100% - 0.01px - var(--grid-gap, 1em))}
 }
-@media (min-width: 64rem){
+/*@media (min-width: 64rem){*/
     .col\@md{-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}
     .col-1\@md{-ms-flex-preferred-size:calc(8.33% - 0.01px - 1em);-ms-flex-preferred-size:calc(8.33% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(8.33% - 0.01px - 1em);flex-basis:calc(8.33% - 0.01px - var(--grid-gap, 1em));max-width:calc(8.33% - 0.01px - 1em);max-width:calc(8.33% - 0.01px - var(--grid-gap, 1em))}
     .col-2\@md{-ms-flex-preferred-size:calc(16.66% - 0.01px - 1em);-ms-flex-preferred-size:calc(16.66% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(16.66% - 0.01px - 1em);flex-basis:calc(16.66% - 0.01px - var(--grid-gap, 1em));max-width:calc(16.66% - 0.01px - 1em);max-width:calc(16.66% - 0.01px - var(--grid-gap, 1em))}
@@ -85,7 +87,7 @@
     .col-10\@md{-ms-flex-preferred-size:calc(83.33% - 0.01px - 1em);-ms-flex-preferred-size:calc(83.33% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(83.33% - 0.01px - 1em);flex-basis:calc(83.33% - 0.01px - var(--grid-gap, 1em));max-width:calc(83.33% - 0.01px - 1em);max-width:calc(83.33% - 0.01px - var(--grid-gap, 1em))}
     .col-11\@md{-ms-flex-preferred-size:calc(91.66% - 0.01px - 1em);-ms-flex-preferred-size:calc(91.66% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(91.66% - 0.01px - 1em);flex-basis:calc(91.66% - 0.01px - var(--grid-gap, 1em));max-width:calc(91.66% - 0.01px - 1em);max-width:calc(91.66% - 0.01px - var(--grid-gap, 1em))}
     .col-12\@md{-ms-flex-preferred-size:calc(100% - 0.01px - 1em);-ms-flex-preferred-size:calc(100% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(100% - 0.01px - 1em);flex-basis:calc(100% - 0.01px - var(--grid-gap, 1em));max-width:calc(100% - 0.01px - 1em);max-width:calc(100% - 0.01px - var(--grid-gap, 1em))}
-}
+/*}*/
 @media (min-width: 80rem){
     .col\@lg{-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}
     .col-1\@lg{-ms-flex-preferred-size:calc(8.33% - 0.01px - 1em);-ms-flex-preferred-size:calc(8.33% - 0.01px - var(--grid-gap, 1em));flex-basis:calc(8.33% - 0.01px - 1em);flex-basis:calc(8.33% - 0.01px - var(--grid-gap, 1em));max-width:calc(8.33% - 0.01px - 1em);max-width:calc(8.33% - 0.01px - var(--grid-gap, 1em))}
@@ -519,7 +521,7 @@ u,.text-underline{text-decoration:underline}
 @media not all and (min-width: 48rem){
     .has-margin\@sm{margin:0 !important}
 }
-@media not all and (min-width: 64rem){
+@media not all/* and (min-width: 64rem)*/{
     .has-margin\@md{margin:0 !important}
 }
 @media not all and (min-width: 80rem){
@@ -617,7 +619,7 @@ u,.text-underline{text-decoration:underline}
 @media not all and (min-width: 48rem){
     .has-padding\@sm{padding:0 !important}
 }
-@media not all and (min-width: 64rem){
+@media not all/* and (min-width: 64rem)*/{
     .has-padding\@md{padding:0 !important}
 }
 @media not all and (min-width: 80rem){
@@ -641,11 +643,11 @@ u,.text-underline{text-decoration:underline}
     .text-left\@sm{text-align:left}
     .text-right\@sm{text-align:right}
 }
-@media (min-width: 64rem){
+/*@media (min-width: 64rem){*/
     .text-center\@md{text-align:center}
     .text-left\@md{text-align:left}
     .text-right\@md{text-align:right}
-}
+/*}*/
 @media (min-width: 80rem){
     .text-center\@lg{text-align:center}
     .text-left\@lg{text-align:left}
@@ -1077,9 +1079,9 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     opacity:0;
     transition:opacity .3s, visibility .3s
 }
-@media (min-width: 64rem) {
+/*@media (min-width: 64rem) {*/
     .cd-faq__overlay{display:none}
-}
+/*}*/
 .cd-faq__overlay--is-visible {
     visibility:visible;
     opacity:1
