@@ -1093,7 +1093,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     height:var(--header-height);
     background-color:#1c1d1d
 }
-@media (min-width: 64rem) {
+@media (max-width: 64rem) {
     .cd-header {
         height:160px;
         height:var(--header-height)
