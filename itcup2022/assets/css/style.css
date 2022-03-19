@@ -1102,21 +1102,29 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
         height:160px;
         /*height:var(--header-height)*/
     }
-    .cd-header .text-component {
+    /*.cd-header .text-component {
         font-size:1rem;
+    }
+    */
+    .cd-header .text-component h1 {
+        margin-bottom: 10px;
+    }
+    .cd-header .text-component p {
+        margin-bottom: 10px;
     }
 
 }
-
+/*
 @media (max-width: 56rem) {
     .cd-header .text-component {
         font-size:.8rem;
     }
 
 }
+*/
 @media (max-width: 48rem) {
     .cd-header .text-component {
-        font-size:.6rem;
+        font-size:.8rem;
     }
     .cd-header .text-component p {
         display: none;
@@ -1135,7 +1143,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     -moz-osx-font-smoothing:grayscale
 }
 @media (min-width: 80rem) {
-    .cd-header{--header-height: 240px}
+    .cd-header{--header-height: 220px}
 }
 .cd-article-link {
     color:hsl(73, 46%, 27.5%);
