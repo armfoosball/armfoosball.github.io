@@ -1133,7 +1133,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
         display: none;
     }
     .cd-header {
-        height:120px;
+        height:75px;
     }
 }
 
