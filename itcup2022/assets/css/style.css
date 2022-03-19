@@ -1163,3 +1163,16 @@ div.brand {
 .cd-faq__item {
     padding: .5em;
 }
+
+#basics, #mobile {
+    display:inline-block;
+    width:49%;
+    padding:5pt;
+    vertical-align:top
+}
+@media (max-width: 48rem) {
+    #basics, #mobile {
+        display:block;
+        width:auto;
+    }
+}
