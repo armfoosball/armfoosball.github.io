@@ -949,52 +949,52 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     color:var(--cd-color-2)
 }
 /*@media (min-width: 64rem) {*/
-    .cd-faq__trigger {
-        font-weight:300;
-        margin:0;
-        padding:0.75em 2em 0.75em 0.75em;
-        padding:var(--space-sm) var(--space-lg) var(--space-sm) var(--space-sm)
-    }
-    .cd-faq__trigger span {
-        font-size:1.2em;
-        font-size:var(--text-md)
-    }
-    .cd-faq__trigger::before,.cd-faq__trigger::after {
-        content:'';
-        position:absolute;
-        right:24px;
-        top:50%;
-        height:2px;
-        width:13px;
-        background:hsl(73, 46%, 71.5%);
-        background:hsl(var(--cd-color-2-h), var(--cd-color-2-s), calc(var(--cd-color-2-l)*1.3));
-        -webkit-backface-visibility:hidden;
-        backface-visibility:hidden;
-        transition:-webkit-transform .2s;
-        transition:transform .2s;
-        transition:transform .2s, -webkit-transform .2s
-    }
-    .cd-faq__trigger::before {
-        -webkit-transform:rotate(45deg);
-        -ms-transform:rotate(45deg);
-        transform:rotate(45deg);
-        right:32px
-    }
-    .cd-faq__trigger::after {
-        -webkit-transform:rotate(-45deg);
-        -ms-transform:rotate(-45deg);
-        transform:rotate(-45deg)
-    }
-    .cd-faq__item-visible .cd-faq__trigger::before {
-        -webkit-transform:rotate(-45deg);
-        -ms-transform:rotate(-45deg);
-        transform:rotate(-45deg)
-    }
-    .cd-faq__item-visible .cd-faq__trigger::after {
-        -webkit-transform:rotate(45deg);
-        -ms-transform:rotate(45deg);
-        transform:rotate(45deg)
-    }
+.cd-faq__trigger {
+    font-weight:300;
+    margin:0;
+    padding:0.75em 2em 0.75em 0.75em;
+    padding:var(--space-sm) var(--space-lg) var(--space-sm) var(--space-sm)
+}
+.cd-faq__trigger span {
+    font-size:1.2em;
+    font-size:var(--text-md)
+}
+.cd-faq__trigger::before,.cd-faq__trigger::after {
+    content:'';
+    position:absolute;
+    right:24px;
+    top:50%;
+    height:2px;
+    width:13px;
+    background:hsl(73, 46%, 71.5%);
+    background:hsl(var(--cd-color-2-h), var(--cd-color-2-s), calc(var(--cd-color-2-l)*1.3));
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    transition:-webkit-transform .2s;
+    transition:transform .2s;
+    transition:transform .2s, -webkit-transform .2s
+}
+.cd-faq__trigger::before {
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+    right:32px
+}
+.cd-faq__trigger::after {
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg)
+}
+.cd-faq__item-visible .cd-faq__trigger::before {
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg)
+}
+.cd-faq__item-visible .cd-faq__trigger::after {
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg)
+}
 /*}*/
 .cd-faq__content .text-component { font-size:0.95em }
 .cd-faq__content p {
