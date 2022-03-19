@@ -684,6 +684,20 @@ li:last-child .cd-faq__category {
     transition:transform .3s;
     transition:transform .3s, -webkit-transform .3s
 }
+.cd-faq__items {
+    position:static;
+    height:auto;
+    width:auto;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    overflow:visible;
+    -webkit-transform:translateX(0);
+    -ms-transform:translateX(0);
+    transform:translateX(0);
+    padding:0 0 0 0.75em;
+    padding:0 0 0 var(--space-sm);
+    background:transparent
+}
 @media (min-width: 64rem) {
     .cd-faq__items {
         position:static;
@@ -908,7 +922,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     height:var(--header-height);
     background-color:#1c1d1d
 }
-@media (min-width: 80rem) {
+@media (min-width: 64rem) {
     .cd-header {
         height:160px;
         height:var(--header-height)
