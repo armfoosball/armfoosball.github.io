@@ -1093,16 +1093,17 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
 /*body{background-color:hsl(0, 0%, 95%);background-color:var(--color-contrast-lower)}*/
 .cd-header {
     /*--header-height: 220px;
-    height:220px;*/
-    --header-height: 710px;
+    height:220px;
+    --header-height: 710px;*/
     
     height:var(--header-height);
     background-color:#1c1d1d
 }
 @media (max-width: 72rem) {
     .cd-header {
+        /*height:610px;
         height:160px;
-        /*height:var(--header-height)*/
+        height:var(--header-height)*/
     }
     .cd-header .text-component {
         font-size:1rem;
@@ -1122,8 +1123,8 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
         font-size:.8rem;
     }
     .cd-header {
-        height:140px;
-        /*height:var(--header-height)*/
+        /*height:140px;
+        height:var(--header-height)*/
     }
 }
 
@@ -1148,7 +1149,7 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
     -moz-osx-font-smoothing:grayscale
 }
 @media (min-width: 80rem) {
-    .cd-header{--header-height: 240px}
+    /*.cd-header{--header-height: 240px}*/
 }
 .cd-article-link {
     color:hsl(73, 46%, 27.5%);
