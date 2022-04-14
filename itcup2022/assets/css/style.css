@@ -1092,8 +1092,10 @@ html:not(.js) .cd-faq__group,.cd-faq__group--selected{display:block}
 }
 /*body{background-color:hsl(0, 0%, 95%);background-color:var(--color-contrast-lower)}*/
 .cd-header {
-    --header-height: 220px;
-    height:220px;
+    /*--header-height: 220px;
+    height:220px;*/
+    --header-height: 710px;
+    
     height:var(--header-height);
     background-color:#1c1d1d
 }
