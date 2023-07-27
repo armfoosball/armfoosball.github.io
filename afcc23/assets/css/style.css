@@ -1289,7 +1289,7 @@ ul.cd-sm {
 	}
 	ul.cd-afcc li {
     	width: 100%;
-    	/*padding-left: 0.5em;*/
+    	padding-left: 0.5em;
 	}
     .cd-title {
         font-size: 1.6em !important;
@@ -1381,6 +1381,9 @@ ul.cd-sm {
         width: 46%;
         margin: auto;
 
+    }
+    ul.cd-afcc li {
+    	padding-left: 1em;
     }
 }
 
