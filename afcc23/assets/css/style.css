@@ -1445,6 +1445,9 @@ ul.cd-sm {
     .date {
         font-size: 1.2em;
     }
+    #basics, #mobile {
+  	width: 70%;
+    }
 }
 
 .cd-header h1 {
